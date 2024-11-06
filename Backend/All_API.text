@@ -1,0 +1,31 @@
+{email:-tushar@gmail.com
+Pass:-Jaideep@123}
+
+{email:-jaideep@gmail.com
+Pass:-jaideep@123}
+
+{email:-main@gmail.com
+Pass:-1234}
+
+
+
+# SUPER_ADMIN APIS 
+
+1)
+    POST -  http://localhost:8080/api/changerole
+    json -  {
+    "newRole":"superadmin",
+    "userId":"66efb3a490eedcaa8b7ae79a"
+    },
+
+2)
+   GET -   http://localhost:8080/api/adminusers
+
+
+3) delete - http://localhost:8080/api/users/6714e595284b1d26c5e55906
+
+
+      /app/api/users/671dd2cbbec0cf5bcdada745/certificates/671f6c633861d2b4e4bebec2/revert
+
+
+5) put - http://localhost:8080/app/api/update-user/671e073b69bf69190b20529f
