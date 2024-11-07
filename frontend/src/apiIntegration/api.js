@@ -2,7 +2,7 @@
 const backendDomain=  "http://192.168.31.163:8080"
 
 
-console.log(backendDomain)
+
 const SummaryApi = {
 
     signUp: {

@@ -15,7 +15,7 @@ const Login = () => {
 
   const handleLogin = async () =>{
     try{
-      const data = await SignIn(email,password,district,state);
+      const data = await SignIn(email,password,state,district,);
       if(data.jwt_token){
         console.log("Login successful", data.jwt_token);
       }
