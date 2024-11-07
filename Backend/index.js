@@ -17,8 +17,8 @@ app.use(express.json());
 
 // CORS setup
 app.use(cors({
-    origin: ['http://100.26.236.115:3000', 'http://localhost:3000'],
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    origin: '*',
+        methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
 }));
 
 app.get("/app/health", (req, res) => {
